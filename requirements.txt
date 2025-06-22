@@ -1,0 +1,11 @@
+nltk
+wordcloud
+xgboost
+ipykernel
+jupyter
+pandas
+seaborn
+scikit-learn
+streamlit
+flask
+notebook
