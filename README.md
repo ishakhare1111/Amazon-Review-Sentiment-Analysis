@@ -35,24 +35,31 @@ This project is a sentiment analysis tool for Amazon product reviews. It allows 
 
 ```bash
 git clone https://github.com/your-username/amazon-review-sentiment-analysis.git
-cd amazon-review-sentiment-analysis
+cd amazon-review-sentiment-analysis '''
 
 ### 2. Create and Activate Virtual Environment (optional but recommended)
 
+```bash
 # macOS/Linux
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate '''
 
+```bash
 # Windows
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate '''
 
 ### 3. Install Requirements
 
-pip install -r requirements.txt
+```bash
+pip install -r requirements.txt'''
 
 ### 4. Run the API
-python3 api.py
+
+```bash
+python3 api.py '''
 
 ### 5. In a new terminal, run the Streamlit frontend
-streamlit run main.py
+
+```bash
+streamlit run main.py '''
